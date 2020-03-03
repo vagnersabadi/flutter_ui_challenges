@@ -1,26 +1,37 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_ui_challenges/core/data/models/menu.dart';
+import 'package:flutter_ui_challenges/src/furniture_app/furniture_app.dart';
+import 'package:flutter_ui_challenges/src/nic_asia_clone/nic_asia_app.dart';
 import 'package:flutter_ui_challenges/src/pages/animations/anim4.dart';
 import 'package:flutter_ui_challenges/src/pages/animations/anim5.dart';
 import 'package:flutter_ui_challenges/src/pages/bike/bike_details.dart';
 import 'package:flutter_ui_challenges/src/pages/bike/home_page.dart';
 import 'package:flutter_ui_challenges/src/pages/blog/sports_news1.dart';
+import 'package:flutter_ui_challenges/src/pages/ecommerce/cart2.dart';
+import 'package:flutter_ui_challenges/src/pages/ecommerce/checkout1.dart';
+import 'package:flutter_ui_challenges/src/pages/ecommerce/ecommerce4.dart';
 import 'package:flutter_ui_challenges/src/pages/invitation/inauth.dart';
 import 'package:flutter_ui_challenges/src/pages/invitation/inlanding.dart';
 import 'package:flutter_ui_challenges/src/pages/invitation/invitation1.dart';
 import 'package:flutter_ui_challenges/src/pages/login/auth3.dart';
 import 'package:flutter_ui_challenges/src/pages/misc/bottomsheet.dart';
 import 'package:flutter_ui_challenges/src/pages/food/cake.dart';
+import 'package:flutter_ui_challenges/src/pages/misc/crop.dart';
+import 'package:flutter_ui_challenges/src/pages/misc/gallery1.dart';
 import 'package:flutter_ui_challenges/src/pages/misc/image_popup.dart';
 import 'package:flutter_ui_challenges/src/pages/misc/musicplayer.dart';
+import 'package:flutter_ui_challenges/src/pages/misc/musicplayer2.dart';
 import 'package:flutter_ui_challenges/src/pages/onboarding/intro6.dart';
+import 'package:flutter_ui_challenges/src/pages/settings/settings1.dart';
+import 'package:flutter_ui_challenges/src/pages/settings/settings2.dart';
+import 'package:flutter_ui_challenges/src/pages/settings/settings3.dart';
 import 'package:flutter_ui_challenges/src/pages/todo/todo_home3.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:flutter_ui_challenges/src/pages/todo/todo2.dart';
-import 'package:flutter_ui_challenges/src/pages/misc/dash3.dart';
-import 'package:flutter_ui_challenges/src/pages/misc/dash2.dart';
-import 'package:flutter_ui_challenges/src/pages/misc/dash1.dart';
+import 'package:flutter_ui_challenges/src/pages/dashboard/dash3.dart';
+import 'package:flutter_ui_challenges/src/pages/dashboard/dash2.dart';
+import 'package:flutter_ui_challenges/src/pages/dashboard/dash1.dart';
 import 'package:flutter_ui_challenges/src/pages/misc/chat2.dart';
 import 'package:flutter_ui_challenges/src/pages/login/auth1.dart';
 import 'package:flutter_ui_challenges/src/pages/lists/list2.dart';
@@ -134,6 +145,14 @@ final List<dynamic> pages = [
       SubMenuItem("Signup One", SignupOnePage(), path: SignupOnePage.path),
       SubMenuItem("Signup Two", SignupTwoPage(), path: SignupTwoPage.path),
     ]),
+    MenuItem(title: "Settings",icon: Icons.dashboard,items: [
+      SubMenuItem("Settings One", SettingsOnePage(),
+          path: SettingsOnePage.path),
+      SubMenuItem("Settings Two", SettingsTwoPage(),
+          path: SettingsTwoPage.path),
+      SubMenuItem("Settings Three", SettingsThreePage(),
+          path: SettingsThreePage.path),
+    ]),
     MenuItem(title: "Motorbike App", icon: Icons.list, items: [
       SubMenuItem("Home Page", BikeHomePage(), path: BikeHomePage.path),
       SubMenuItem("Bike Details Page", BikeDetailsPage(), path: BikeDetailsPage.path),
@@ -148,6 +167,12 @@ final List<dynamic> pages = [
       SubMenuItem("Details Page", InvitationPageOne(), path: InvitationPageOne.path),
     ]),
     MenuItem(title: "Ecommerce", icon: Icons.shopping_basket, items: [
+      SubMenuItem("Cart Two", CartTwoPage(),
+          path: CartTwoPage.path),
+      SubMenuItem("Ecommerce Four", EcommerceFourPage(),
+          path: EcommerceFourPage.path),
+      SubMenuItem("Checkout One", CheckoutOnePage(),
+          path: CheckoutOnePage.path),
       SubMenuItem("Ecommerce One", EcommerceOnePage(),
           path: EcommerceOnePage.path),
       SubMenuItem("Ecommerce Two", EcommerceTwoPage(),
@@ -156,8 +181,6 @@ final List<dynamic> pages = [
           path: SliverAppbarPage.path),
       SubMenuItem("Ecommerce Grocery", EcommerceFivePage(),
           path: EcommerceFivePage.path),
-      // SubMenuItem("Ecommerce Four", EcommerceFourPage(),
-      //     path: EcommerceFourPage.path),
       SubMenuItem("Confirm Order", ConfirmOrderPage(),
           path: ConfirmOrderPage.path),
       SubMenuItem("Ecommerce Cart One", CartOnePage(), path: CartOnePage.path),
@@ -175,6 +198,14 @@ final List<dynamic> pages = [
           path: BlogHomeOnePage.path),
       SubMenuItem("Article One", ArticleOnePage(), path: ArticleOnePage.path),
       SubMenuItem("Article Two", ArticleTwoPage(), path: ArticleTwoPage.path),
+    ]),
+    MenuItem(title: "Dashboard",icon: Icons.dashboard,items: [
+      SubMenuItem("Dashboard One", DashboardOnePage(),
+          path: DashboardOnePage.path),
+      SubMenuItem("Dashboard Two", DashboardTwoPage(),
+          path: DashboardTwoPage.path),
+      SubMenuItem("Dashboard Three", DashboardThreePage(),
+          path: DashboardThreePage.path),
     ]),
     MenuItem(title: "Food", icon: Icons.fastfood, items: [
       SubMenuItem("Fruits Add to Cart", AvocadoPage(), path: AvocadoPage.path),
@@ -252,17 +283,14 @@ final List<dynamic> pages = [
       SubMenuItem("Onboarding 5", Intro5(), path: Intro5.path),
     ]),
     MenuItem(title: "Miscellaneous", items: [
+      SubMenuItem('Image/Widget Crop', CropPage(), path: CropPage.path, icon: Icons.crop),
+      SubMenuItem("Gallery One", GalleryPageOne(),
+          path: GalleryPageOne.path),
+      SubMenuItem("Music Player Two", MusicPlayerTwoPage(),
+          path: MusicPlayerTwoPage.path),
       SubMenuItem("Image Popup", ImagePopupPage(),
           path: ImagePopupPage.path),
-      SubMenuItem("Event Invitation", InvitationPageOne(),
-          path: InvitationPageOne.path),
-      SubMenuItem("Dashboard Three", DashboardThreePage(),
-          path: DashboardThreePage.path),
       SubMenuItem("Chat Messaages", ChatTwoPage(), path: ChatTwoPage.path),
-      SubMenuItem("Dashboard One", DashboardOnePage(),
-          path: DashboardOnePage.path),
-      SubMenuItem("Dashboard Two", DashboardTwoPage(),
-          path: DashboardTwoPage.path),
       SubMenuItem("Form Elements", FormElementPage(),
           path: FormElementPage.path),
       SubMenuItem("Sliders", SlidersPage(), path: SlidersPage.path),
@@ -276,9 +304,11 @@ final List<dynamic> pages = [
       SubMenuItem('Bottomsheet', BottomSheetAwesome(),
           path: BottomSheetAwesome.path),
           SubMenuItem('Music player', MusicPlayer(),
-          path: MusicPlayer.path)
+          path: MusicPlayer.path),
     ]),
-    SubMenuItem("Grocery UI Kit", GroceryHomePage(), path: GroceryHomePage.path)
+    SubMenuItem("Grocery UI Kit", GroceryHomePage(), path: GroceryHomePage.path),
+    SubMenuItem("Bank App Clone", NicAsiaApp(), path: NicAsiaApp.path),
+    SubMenuItem("Furniture App", FurnitureApp(), path: FurnitureApp.path),
   ];
 
   SubMenuItem getItemForKey(String key) {
