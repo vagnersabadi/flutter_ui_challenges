@@ -160,7 +160,7 @@ The code for Springy Widget is taken and refactored from (https://github.com/mat
 
 ## Profile Screens
 
-<img height="480px" src="screenshots/profile7.png"> <img height="480px" src="screenshots/profile4.png"> <img height="480px" src="screenshots/profile3.png"> <img height="480px" src="screenshots/p6.png"> <img height="480px" src="screenshots/profile5.png"> <img height="480px" src="screenshots/profile1.png"> <img height="480px" src="screenshots/profile2.png">
+<img height="480px" src="screenshots/profile9.png"> <img height="480px" src="screenshots/profile8.png"> <img height="480px" src="screenshots/profile7.png"> <img height="480px" src="screenshots/profile4.png"> <img height="480px" src="screenshots/profile3.png"> <img height="480px" src="screenshots/p6.png"> <img height="480px" src="screenshots/profile5.png"> <img height="480px" src="screenshots/profile1.png"> <img height="480px" src="screenshots/profile2.png">
 
 ## Inviation App UI
 
@@ -185,7 +185,7 @@ The code for Springy Widget is taken and refactored from (https://github.com/mat
 
 ## Blog
 
-<img height="480px" src="screenshots/sports_news1.png" > <img height="480px" src="screenshots/blog-home1.png" > <img height="480px" src="screenshots/article2.png" > <img height="480px" src="screenshots/article1.png" >
+<img height="480px" src="screenshots/news1.png" > <img height="480px" src="screenshots/sports_news1.png" > <img height="480px" src="screenshots/blog-home1.png" > <img height="480px" src="screenshots/article2.png" > <img height="480px" src="screenshots/article1.png" >
 
 ## Food App
 
