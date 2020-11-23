@@ -2,14 +2,16 @@
 
 My effort on replicating various apps UI on flutter.
 
+
+[View on Web](https://lohanidamodar.github.io/flutter_ui_challenges/#/)
+
 [<img src="screenshots/play-store-logo.png" width="450" >](https://play.google.com/store/apps/details?id=com.popupbits.flutteruichallenges) [<img src="screenshots/app-store-logo.png" width="400" >](https://apps.apple.com/np/app/flutter-ui-challenges/id1473537882)
 
-## Building and running the code
+[![Get it from the Snap Store](https://snapcraft.io/static/images/badges/en/snap-store-black.svg)](https://snapcraft.io/flutter-ui-challenges)
 
-- From now on, you need to create your own firebase project and add the config files in order to build the project
+## Building and running the code [ **Updated** ]
 
-    In order to build the project before firebase services were added please checkout the branch [without-firebase](https://github.com/lohanidamodar/flutter_ui_challenges/tree/without-firebase)
-
+- Thank you all for your tremendous support. With latest update, I have removed all firebase dependency, and project now runs on web and desktop as well. Please use flutter master channel to run and build. If you want previous version with firebase please checkout [with-firebase](https://github.com/lohanidamodar/flutter_ui_challenges/tree/with-firebase) branch.
 
 ### Table of contents
 
@@ -23,6 +25,7 @@ My effort on replicating various apps UI on flutter.
 - **[Login/signup UIs](#user-flow-screens)**
 - **[Settings UIs](#settings-uis)**
 - **[Dashboard UIs](#dashboard-uis)**
+- **[Quotes App UIs](#quotes-app-uis)**
 - **[Motorbike App UIs](#motorbike-app-uis)**
 - **[Profile UIs](#profile-screens)**
 - **[Invitation App UIs](#inviation-app-ui)**
@@ -147,13 +150,16 @@ The code for Springy Widget is taken and refactored from (https://github.com/mat
 
 ## User Flow Screens
 
-<img height="480px" src="screenshots/auth3-1.png"> <img height="480px" src="screenshots/auth3-2.png"> <img height="480px" src="screenshots/login7.png"> <img height="480px" src="screenshots/signup2.png"> <img height="480px" src="screenshots/login6.png"> <img height="480px" src="screenshots/auth2.png"> <img height="480px" src="screenshots/login5.png"> <img height="480px" src="screenshots/auth1.png"> <img height="480px" src="screenshots/login4.png"> <img height="480px" src="screenshots/login1.png"> <img height="480px" src="screenshots/login2.png"> <img height="480px" src="screenshots/login3.gif"> <img height="480px" src="screenshots/signup1.png">
+<img height="480px" src="screenshots/login9.png"> <img height="480px" src="screenshots/login8.png"> <img height="480px" src="screenshots/auth3-1.png"> <img height="480px" src="screenshots/auth3-2.png"> <img height="480px" src="screenshots/login7.png"> <img height="480px" src="screenshots/signup2.png"> <img height="480px" src="screenshots/login6.png"> <img height="480px" src="screenshots/auth2.png"> <img height="480px" src="screenshots/login5.png"> <img height="480px" src="screenshots/auth1.png"> <img height="480px" src="screenshots/login4.png"> <img height="480px" src="screenshots/login1.png"> <img height="480px" src="screenshots/login2.png"> <img height="480px" src="screenshots/login3.gif"> <img height="480px" src="screenshots/signup1.png">
 
 ## Settings UIs
 <img height="480px" src="screenshots/settings1.png"> <img height="480px" src="screenshots/settings2.png"> <img height="480px" src="screenshots/settings3.png">
 
 ## Dashboard UIs
 <img height="480px" src="screenshots/dash1.png"> <img height="480px" src="screenshots/dash2.png">  <img height="480px" src="screenshots/dash3.png">
+
+## Quotes App UIs
+<img height="480px" src="screenshots/quotes1.png"> 
 
 ## Motorbike App UIs
 <img height="480px" src="screenshots/bike1.png"> <img height="480px" src="screenshots/bike2.png">
@@ -172,7 +178,7 @@ The code for Springy Widget is taken and refactored from (https://github.com/mat
 
 ## Navigations
 
-<img height="480px" src="screenshots/bottom.png"> <img height="480px" src="screenshots/drawer2.png"> <img height="480px" src="screenshots/dark_drawer_nav.png"> <img height="480px" src="screenshots/hidden_menu1.gif">
+<img height="480px" src="screenshots/menu1.png"> <img height="480px" src="screenshots/bottom.png"> <img height="480px" src="screenshots/drawer2.png"> <img height="480px" src="screenshots/dark_drawer_nav.png"> <img height="480px" src="screenshots/hidden_menu1.gif">
 
 ## Onboarding Screens
 
@@ -189,7 +195,7 @@ The code for Springy Widget is taken and refactored from (https://github.com/mat
 
 ## Food App
 
-<img height="480px" src="screenshots/recipe-single.png"> <img height="480px" src="screenshots/recipe-list.png"> <img height="480px" src="screenshots/recipe_details1.png"> <img height="480px" src="screenshots/avocado.png"> <img height="480px" src="screenshots/cake.png"> <img height="480px" src="screenshots/fdhome.png">
+<img height="480px" src="screenshots/food_checkout_1.png"> <img height="480px" src="screenshots/recipe-single.png"> <img height="480px" src="screenshots/recipe-list.png"> <img height="480px" src="screenshots/recipe_details1.png"> <img height="480px" src="screenshots/avocado.png"> <img height="480px" src="screenshots/cake.png"> <img height="480px" src="screenshots/fdhome.png">
 
 ## Quiz App
 
